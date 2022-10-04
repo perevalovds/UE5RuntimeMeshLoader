@@ -40,7 +40,13 @@ In the example map, a folder called `RuntimeMeshLoader` is created in the user's
 
 If you load up the plugin for the first time, the folder will be empty. As an example, you can copy the two provided mesh-folders inside the `Resources` directory into the aforementioned `RuntimeMeshLoader`-folder.
 
+You can find folders with FBX for demo at folder `UE5RuntimeMeshLoader\Resources\`.
+
 ### Loading custom meshes from a scratch
+
+You can use OBJ file from folder `UE5RuntimeMeshLoader\Resources\` for loading here. 
+
+Steps:
 
 - Create a new empty map
 
@@ -48,7 +54,7 @@ If you load up the plugin for the first time, the folder will be empty. As an ex
 
 - Drop RML_CustomMesh object to the level blueprint
 
-- Call from this object functions "Clear meshes" and then "Load custom mesh" with specifying filename to FBX file.
+- Call from this object functions "Clear meshes" and then "Load custom mesh" with specifying filename to FBX or OBJ file or other.
 
 - Now you can start this sequence by pressing "1" event (create this event of course).
 

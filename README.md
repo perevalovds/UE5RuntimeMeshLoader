@@ -40,6 +40,20 @@ In the example map, a folder called `RuntimeMeshLoader` is created in the user's
 
 If you load up the plugin for the first time, the folder will be empty. As an example, you can copy the two provided mesh-folders inside the `Resources` directory into the aforementioned `RuntimeMeshLoader`-folder.
 
+### Loading custom meshes from a scratch
+
+- Create a new empty map
+
+- Put in the scene object of class RML_CustomMesh
+
+- Drop RML_CustomMesh object to the level blueprint
+
+- Call from this object functions "Clear meshes" and then "Load custom mesh" with specifying filename to FBX file.
+
+- Now you can start this sequence by pressing "1" event (create this event of course).
+
+- You may switch meshes by "2" event analogously.
+
 ## Limitations
 Only PNG-formats can be loaded. JPG is currently not supported.
 

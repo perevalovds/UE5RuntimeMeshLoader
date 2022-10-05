@@ -60,6 +60,10 @@ Steps:
 
 - You may switch meshes by "2" event analogously.
 
+Inside RML_CustomMesh blueprint you can set custom material for the object.
+
+Also in that blueprint can change type of using paths from absolute to relative path, for example, `..\Meshes\swirl1.obj` will load from `Meshes` folder.
+
 ## Limitations
 Only PNG-formats can be loaded. JPG is currently not supported.
 
